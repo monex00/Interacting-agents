@@ -1,0 +1,5 @@
+javac -cp ../JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:. -d classes Student.java Teacher.java
+
+---
+
+java -cp ../JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar:classes:. jade.Boot -gui -agents "teacher:Teacher;student1:Student"

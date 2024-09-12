@@ -6,3 +6,6 @@ build/
 
 # every bin folder
 bin/
+
+# every classes folder
+classes/
