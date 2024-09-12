@@ -1,0 +1,8 @@
+# every build folder
+build/
+
+# every .gradle folder
+.gradle/
+
+# every bin folder
+bin/
